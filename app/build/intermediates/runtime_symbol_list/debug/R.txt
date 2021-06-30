@@ -1635,6 +1635,8 @@ int drawable design_ic_visibility 0x7f060077
 int drawable design_ic_visibility_off 0x7f060078
 int drawable design_password_eye 0x7f060079
 int drawable design_snackbar_background 0x7f06007a
+int drawable ic_action_name 0x7f060096
+int drawable ic_baseline_exit_to_app_24 0x7f060098
 int drawable ic_clock_black_24dp 0x7f06007b
 int drawable ic_keyboard_black_24dp 0x7f06007c
 int drawable ic_launcher 0x7f06005e
@@ -1642,6 +1644,7 @@ int drawable ic_mtrl_checked_circle 0x7f06007d
 int drawable ic_mtrl_chip_checked_black 0x7f06007e
 int drawable ic_mtrl_chip_checked_circle 0x7f06007f
 int drawable ic_mtrl_chip_close_circle 0x7f060080
+int drawable logout 0x7f060097
 int drawable material_cursor_drawable 0x7f060081
 int drawable material_ic_calendar_black_24dp 0x7f060082
 int drawable material_ic_clear_black_24dp 0x7f060083
@@ -1757,7 +1760,6 @@ int id auto 0x7f0700b4
 int id autoComplete 0x7f0700b5
 int id autoCompleteToEnd 0x7f0700b6
 int id autoCompleteToStart 0x7f0700b7
-int id bLogOut 0x7f0701a0
 int id barrier 0x7f0700b8
 int id baseline 0x7f0700b9
 int id beginOnFirstDraw 0x7f0700ba
@@ -1886,6 +1888,7 @@ int id line3 0x7f07005f
 int id linear 0x7f070113
 int id listMode 0x7f070060
 int id list_item 0x7f070061
+int id logout 0x7f0701a1
 int id masked 0x7f070114
 int id material_clock_display 0x7f070115
 int id material_clock_face 0x7f070116
@@ -2240,6 +2243,7 @@ int layout text_view_with_line_height_from_style 0x7f0a006e
 int layout text_view_with_theme_line_height 0x7f0a006f
 int layout text_view_without_line_height 0x7f0a0070
 int menu login 0x7f0b0000
+int menu tweets_page 0x7f0b0001
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f0c0000
 int string abc_action_bar_up_description 0x7f0c0001

@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -72,7 +74,14 @@ public class TimelineActivty extends AppCompatActivity {
         });
     }
 
-    public void onLogoutButton(View view){
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.tweets_page, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public void onLogoutAction(MenuItem menuItem) {
+        Log.d("hello", "logout");
         client.clearAccessToken();
         finish();
     }
