@@ -1,11 +1,15 @@
 package com.codepath.apps.restclienttemplate;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
@@ -46,6 +50,7 @@ public class TimelineActivty extends AppCompatActivity {
 
     private void populateHomeTimeline() {
         client.getHomeTimeline(new JsonHttpResponseHandler() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
                 Log.i(TAG, "onSuccess! " + json.toString());
@@ -65,5 +70,10 @@ public class TimelineActivty extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void onLogoutButton(View view){
+        client.clearAccessToken();
+        finish();
     }
 }

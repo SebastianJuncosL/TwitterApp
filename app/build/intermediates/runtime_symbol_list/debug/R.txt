@@ -1757,6 +1757,7 @@ int id auto 0x7f0700b4
 int id autoComplete 0x7f0700b5
 int id autoCompleteToEnd 0x7f0700b6
 int id autoCompleteToStart 0x7f0700b7
+int id bLogOut 0x7f0701a0
 int id barrier 0x7f0700b8
 int id baseline 0x7f0700b9
 int id beginOnFirstDraw 0x7f0700ba
