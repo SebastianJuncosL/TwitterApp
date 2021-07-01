@@ -16,12 +16,12 @@
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xxxhdpi/logout.png"
     },
     {
-        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_name.png.flat",
-        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-mdpi/ic_action_name.png"
-    },
-    {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_logout.png.flat",
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xhdpi/logout.png"
+    },
+    {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_name.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-mdpi/ic_action_name.png"
     },
     {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/layout_item_tweet.xml.flat",
