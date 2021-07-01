@@ -1646,6 +1646,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable logout
+drawable logouttest
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1768,6 +1769,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnTweet
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1790,6 +1792,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id compose
 id confirm_button
 id container
 id content
@@ -1836,6 +1839,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCompose
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2158,6 +2162,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_compose
 layout activity_login
 layout activity_timeline
 layout custom_dialog
@@ -2244,7 +2249,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu login
-menu tweets_page
+menu menu_main
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2349,6 +2354,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string tweet
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

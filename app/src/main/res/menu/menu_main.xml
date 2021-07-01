@@ -4,9 +4,15 @@
 
     <item
         android:id="@+id/logout"
-        android:icon="@drawable/logout"
+        android:icon="@drawable/logouttest"
         android:onClick="onLogoutAction"
         android:title="Logout"
         android:tooltipText="Logout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/compose"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Compose"
+        android:onClick="composeTweet"
         app:showAsAction="always" />
 </menu>

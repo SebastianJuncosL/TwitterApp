@@ -1645,6 +1645,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f06007e
 int drawable ic_mtrl_chip_checked_circle 0x7f06007f
 int drawable ic_mtrl_chip_close_circle 0x7f060080
 int drawable logout 0x7f060097
+int drawable logouttest 0x7f060099
 int drawable material_cursor_drawable 0x7f060081
 int drawable material_ic_calendar_black_24dp 0x7f060082
 int drawable material_ic_clear_black_24dp 0x7f060083
@@ -1767,6 +1768,7 @@ int id beginning 0x7f07003e
 int id blocking 0x7f07003f
 int id bottom 0x7f070040
 int id bounce 0x7f0700bb
+int id btnTweet 0x7f0701a3
 int id buttonPanel 0x7f070041
 int id cache_measures 0x7f0700bc
 int id cancel_button 0x7f0700bd
@@ -1789,6 +1791,7 @@ int id clip_horizontal 0x7f0700c9
 int id clip_vertical 0x7f0700ca
 int id clockwise 0x7f0700cb
 int id collapseActionView 0x7f070046
+int id compose 0x7f0701a2
 int id confirm_button 0x7f0700cc
 int id container 0x7f0700cd
 int id content 0x7f070047
@@ -1835,6 +1838,7 @@ int id end 0x7f070050
 int id endToStart 0x7f0700ed
 int id enterAlways 0x7f0700ee
 int id enterAlwaysCollapsed 0x7f0700ef
+int id etCompose 0x7f0701a4
 int id exitUntilCollapsed 0x7f0700f0
 int id expand_activities_button 0x7f070051
 int id expanded_menu 0x7f070052
@@ -2157,6 +2161,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0a0018
 int layout abc_search_view 0x7f0a0019
 int layout abc_select_dialog_material 0x7f0a001a
 int layout abc_tooltip 0x7f0a001b
+int layout activity_compose 0x7f0a0071
 int layout activity_login 0x7f0a001c
 int layout activity_timeline 0x7f0a0028
 int layout custom_dialog 0x7f0a001d
@@ -2243,7 +2248,7 @@ int layout text_view_with_line_height_from_style 0x7f0a006e
 int layout text_view_with_theme_line_height 0x7f0a006f
 int layout text_view_without_line_height 0x7f0a0070
 int menu login 0x7f0b0000
-int menu tweets_page 0x7f0b0001
+int menu menu_main 0x7f0b0002
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f0c0000
 int string abc_action_bar_up_description 0x7f0c0001
@@ -2348,6 +2353,7 @@ int string path_password_eye_mask_visible 0x7f0c0065
 int string path_password_strike_through 0x7f0c0066
 int string search_menu_title 0x7f0c001f
 int string status_bar_notification_info_overflow 0x7f0c0020
+int string tweet 0x7f0c0067
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style AndroidThemeColorAccentYellow 0x7f0d015f

@@ -10,11 +10,13 @@ import androidx.annotation.RequiresApi;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+@Parcel
 public class Tweet {
 
     public String body;
@@ -22,10 +24,13 @@ public class Tweet {
     public User user;
     public String timeAgo;
 
+    // Empty constructor needed by the Parceler library
+    public Tweet(){}
+
     @RequiresApi(api = Build.VERSION_CODES.N)
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
         Tweet tweet = new Tweet();
-        tweet.body = jsonObject.getString("full_text");
+        tweet.body = jsonObject.getString("text");
         tweet.createdAt = jsonObject.getString("created_at");
         tweet.user = User.fromJson(jsonObject.getJSONObject("user"));
         tweet.timeAgo = tweet.getRelativeTimeAgo(jsonObject.getString("created_at"));
