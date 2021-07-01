@@ -6386,6 +6386,7 @@
         
     </style><style name="AppTheme" parent="AppBaseTheme">
         
+        <item name="colorPrimary">#1DA1F2</item>
     </style><style name="counterText">
         <item name="android:textColor">#aa5353cc</item>
     </style><style name="counterOverride">

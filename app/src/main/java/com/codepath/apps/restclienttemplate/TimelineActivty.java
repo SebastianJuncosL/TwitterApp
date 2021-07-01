@@ -55,6 +55,7 @@ public class TimelineActivty extends AppCompatActivity {
                 swipeContainer.setRefreshing(false);
                 // once the network request has completed successfully.
                 fetchTimelineAsync(0);
+
             }
         });
         // Configure the refreshing colors
@@ -73,6 +74,7 @@ public class TimelineActivty extends AppCompatActivity {
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
         rvTweets.setAdapter(adapter);
         populateHomeTimeline();
+
     }
 
     public void fetchTimelineAsync(int page) {
@@ -108,6 +110,9 @@ public class TimelineActivty extends AppCompatActivity {
                 try {
                     tweets.addAll(Tweet.fromJsonArray(jsonArray));
                     adapter.notifyDataSetChanged();
+                    for(int i = 0; i< tweets.size();i++){
+                        Log.i(TAG, json.jsonArray.getJSONObject(i).getString("full_text"));
+                    }
                 } catch (JSONException e) {
                     Log.e(TAG, "Json exception", e);
                     e.printStackTrace();
