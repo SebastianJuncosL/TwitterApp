@@ -4,6 +4,8 @@ com/codepath/apps/restclienttemplate/LoginActivity.java
 com/codepath/apps/restclienttemplate/TimelineActivty.java
  com.codepath.apps.restclienttemplate.TimelineActivty
  com.codepath.apps.restclienttemplate.TimelineActivty$1
+ com.codepath.apps.restclienttemplate.TimelineActivty$2
+ com.codepath.apps.restclienttemplate.TimelineActivty$3
 com/codepath/apps/restclienttemplate/models/SampleModel.java
  com.codepath.apps.restclienttemplate.models.SampleModel
 com/codepath/apps/restclienttemplate/BuildConfig.java

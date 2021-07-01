@@ -2041,6 +2041,7 @@ int id stop 0x7f080164
 int id stretch 0x7f080165
 int id submenuarrow 0x7f080166
 int id submit_area 0x7f080167
+int id swipeContainer 0x7f0801a4
 int id tabMode 0x7f080168
 int id tag_accessibility_actions 0x7f080169
 int id tag_accessibility_clickable_spans 0x7f08016a
