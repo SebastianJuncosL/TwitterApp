@@ -4,8 +4,20 @@
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xxxhdpi/ic_action_name.png"
     },
     {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_compose.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xxhdpi/compose.png"
+    },
+    {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_compose.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xxxhdpi/compose.png"
+    },
+    {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-mdpi_compose.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-mdpi/compose.png"
     },
     {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_logouttest.png.flat",
@@ -36,6 +48,10 @@
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xhdpi/logouttest.png"
     },
     {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_compose.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xhdpi/compose.png"
+    },
+    {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
@@ -46,6 +62,10 @@
     {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable_ic_baseline_exit_to_app_24.xml.flat",
         "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-hdpi_compose.png.flat",
+        "source": "/Users/sjuncos/Documents/Repos/TwitterApp/app/src/main/res/drawable-hdpi/compose.png"
     },
     {
         "merged": "/Users/sjuncos/Documents/Repos/TwitterApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",

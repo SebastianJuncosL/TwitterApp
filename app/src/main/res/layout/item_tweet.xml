@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:layout_marginTop="10dp"
@@ -36,9 +36,9 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="3dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:maxLines="10"
         android:autoLink="all"
         android:linksClickable="true"
+        android:maxLines="10"
         tools:text="This a tweet example" />
 
     <TextView
@@ -51,4 +51,15 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="6dp"
         tools:text="0m" />
+
+    <ImageView
+        android:id="@+id/ivEmbeddedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 </RelativeLayout>

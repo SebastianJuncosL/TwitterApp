@@ -19,6 +19,7 @@ import java.util.Locale;
 @Parcel
 public class Tweet {
 
+    public String embeddedImage;
     public String body;
     public String createdAt;
     public User user;
@@ -34,6 +35,13 @@ public class Tweet {
         tweet.createdAt = jsonObject.getString("created_at");
         tweet.user = User.fromJson(jsonObject.getJSONObject("user"));
         tweet.timeAgo = tweet.getRelativeTimeAgo(jsonObject.getString("created_at"));
+        JSONObject entities = jsonObject.getJSONObject("entities");
+        if(entities.has("media")){
+            tweet.embeddedImage = entities.getJSONArray("media").getJSONObject(0).getString("media_url_https");
+        }
+        else{
+            tweet.embeddedImage = "";
+        }
         return tweet;
     }
 
